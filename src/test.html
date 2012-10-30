@@ -1,0 +1,104 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel ="stylesheet" type ="text/css" href ="./test.css" media ="all">
+<script type ="text/javascript" src ="./test.js"></script>
+
+</head>
+
+<body onclick ="animemanage()" onLoad="reset()">
+<img class = "bg" src = "bgex1.jpg" alt = "" />
+
+<div id = "container">
+<div id="title">
+project-10<br/>
+対話応答アルゴリズム
+</div>
+<form name ="area0">
+	<textarea name = "area0" class ="area0" rows="2" cols="20" wrap ="hard" readonly>火狐 or Chrome 推奨　click please</textarea>
+</form>
+
+<form name ="area1">
+	<textarea name ="area1" class ="area" readonly></textarea>
+</form>
+
+<input type ="button" class= "button" value ="button1"
+	onclick ="dispmain(1)" style ="visibility: hidden;top:70px"/>
+	<div>
+		<input type ="button" class ="subbutton" value ="project"
+			onclick ="dispsub(1)" style ="visibility: hidden;top: 70px"/>
+		<div>
+			<input type ="button" class ="subsubbutton" value ="about"
+				onclick ="setforarea(11)" style ="top: 70px">
+
+			<input type ="button" class ="subsubbutton" value ="plan"
+				onclick ="setforarea(12)" style ="top: 150px">
+		</div>
+	</div>
+<input type ="button" class ="button" value ="button2"
+	onclick ="dispmain(2)" style ="visibility: hidden;top:220px"/>
+	<div>
+		<input type ="button" class ="subbutton" value ="member"
+			onclick ="dispsub(2)" style ="visibility: hidden;top: 220px;"/>
+		<div>
+			<input type ="button" class ="subsubbutton" value ="Wachi Tokuma"
+				onclick ="setforarea(21)" style ="top: 60px">
+
+			<input type ="button" class ="subsubbutton" value ="Ariga Ryo"
+				onclick ="setforarea(22)" style ="top: 140px">	
+
+			<input type ="button" class ="subsubbutton" value ="Ishiwatari Naoya"
+				onclick ="setforarea(23)" style ="top: 220px">
+			
+			<input type ="button" class ="subsubbutton"	value ="Shibuya Akira"
+				onclick ="setforarea(24)" style ="top: 300px">
+			
+			<input type ="button" class ="subsubbutton" value ="Hirata Masaharu"
+				onclick ="setforarea(25)" style ="top: 380px">
+			
+			<input type ="button" class ="subsubbutton" value ="Hiruta Takumi"
+				onclick ="setforarea(26)" style ="top: 460px">
+		
+			<input type ="button" class ="subsubbutton" value ="Mogi Ryouji"
+				onclick ="setforarea(27)" style ="top: 540px">
+		</div>
+	</div>
+<input type ="button" class ="button" value ="button3"
+	onclick ="dispmain(3)" style ="visibility: hidden;top:370px"/>
+	<div>
+		<input type ="button" class ="subbutton" value ="record"
+			onclick ="dispsub(3)" style ="visibility: hidden;top: 370px"/>
+		<div>
+			<input type ="button" class ="subsubbutton" value ="1st"
+				onclick ="setforarea(31)" style ="top: 370px">
+
+	
+		<!--ここに追加。topを80px間隔で引数値は規定の書式で
+		
+		template
+		<input type ="button" class ="subsubbutton" value ="値を設定"
+			onclick ="setforarea(規定の書式:3n)" style ="top: 間隔：80px">
+		
+		-->
+		</div>
+	</div>
+<input type ="button" class ="button" value ="button4"
+	onclick ="dispmain(4)" style ="visibility: hidden;top:520px"/>
+	<div>
+		<input type ="button" class ="subbutton" value ="System"
+			onclick ="dispsub(4)" style ="visibility: hidden;top: 520px"/>
+		<div>
+			<a href="test.html">
+			<input type ="button" class ="subsubbutton" value ="refresh"
+				onclick ="setforarea(41)" style ="top: 440px">
+			</a>
+			<input type ="button" class ="subsubbutton" value ="project Wiki"
+				onclick ="setforarea(42)" style ="top: 520px">
+			
+			<input type ="button" class ="subsubbutton" value ="logout"
+				onclick ="setforarea(43)" style ="top: 600px">
+		</div>
+	</div>		
+</div>
+</body>
+</html> 
